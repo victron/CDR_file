@@ -1,0 +1,81 @@
+ASN.1 interface: 3GPP CDR 32.298 Release 11 (11.3.0) GPRSRecord
+Filename: 3.dat
+
+*** DECODING ***
+
+
+CDR #0
+<GPRSRecord>
+  <sGWRecord>
+    <recordType>84</recordType>
+    <servedIMSI>52051130902818F0</servedIMSI>
+    <s-GWAddress>
+      <iPBinaryAddress>
+        <iPBinV4Address>58D6517E</iPBinV4Address>
+      </iPBinaryAddress>
+    </s-GWAddress>
+    <chargingID>873648463</chargingID>
+    <servingNodeAddress>
+      <iPBinaryAddress>
+        <iPBinV4Address>0A2C1A04</iPBinV4Address>
+      </iPBinaryAddress>
+    </servingNodeAddress>
+    <accessPointNameNI>internet</accessPointNameNI>
+    <pdpPDNType>F121</pdpPDNType>
+    <servedPDPPDNAddress>
+      <iPAddress>
+        <iPBinaryAddress>
+          <iPBinV4Address>64695EBD</iPBinV4Address>
+        </iPBinaryAddress>
+      </iPAddress>
+    </servedPDPPDNAddress>
+    <dynamicAddressFlag>
+      <true/>
+    </dynamicAddressFlag>
+    <listOfTrafficVolumes>
+      <ChangeOfCharCondition>
+        <dataVolumeGPRSUplink>1457</dataVolumeGPRSUplink>
+        <dataVolumeGPRSDownlink>982</dataVolumeGPRSDownlink>
+        <changeCondition>
+          <recordClosure/>
+        </changeCondition>
+        <changeTime>1607201530312B0300</changeTime>
+      </ChangeOfCharCondition>
+    </listOfTrafficVolumes>
+    <recordOpeningTime>1607201515312B0300</recordOpeningTime>
+    <duration>900</duration>
+    <causeForRecClosing>17</causeForRecClosing>
+    <recordSequenceNumber>11</recordSequenceNumber>
+    <nodeID>Charging-SGW0101</nodeID>
+    <localSequenceNumber>203</localSequenceNumber>
+    <apnSelectionMode>
+      <mSProvidedSubscriptionNotVerified/>
+    </apnSelectionMode>
+    <servedMSISDN>91835040096492</servedMSISDN>
+    <chargingCharacteristics>0200</chargingCharacteristics>
+    <chChSelectionMode>
+      <homeDefault/>
+    </chChSelectionMode>
+    <servingNodePLMNIdentifier>52F510</servingNodePLMNIdentifier>
+    <servedIMEISV>6829452035469823</servedIMEISV>
+    <rATType>6</rATType>
+    <mSTimeZone>2101</mSTimeZone>
+    <userLocationInformation>1852F51026AD52F51000000100</userLocationInformation>
+    <sGWChange>
+      <true/>
+    </sGWChange>
+    <servingNodeType>
+      <mME/>
+    </servingNodeType>
+    <p-GWAddressUsed>
+      <iPBinaryAddress>
+        <iPBinV4Address>50FF4733</iPBinV4Address>
+      </iPBinaryAddress>
+    </p-GWAddressUsed>
+    <p-GWPLMNIdentifier>52F510</p-GWPLMNIdentifier>
+    <pDNConnectionChargingID>873648463</pDNConnectionChargingID>
+  </sGWRecord>
+</GPRSRecord>
+
+230 bytes supplied, 230 bytes decoded.
+*** DECODING SUCCESSFUL ***
